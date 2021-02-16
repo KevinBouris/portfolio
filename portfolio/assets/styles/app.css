@@ -29,9 +29,10 @@
     background-image: url("../../public/image/workplace.jpg");
 }
 .carousel-text {
-    border: 2px solid white;
+    border: 2px solid rgba(67, 121, 131, .2);
     color: white;
     padding: 2em;
+    background-color: rgba(67, 121, 131, .2);
 }
 .carousel-text-p--size {
     font-size: 2rem;
@@ -52,9 +53,4 @@
 }
 .carousel-text-p--sub {
     font-size: 2rem;
-}
-.filter-blue {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(41, 22, 87, 0.4);
 }
