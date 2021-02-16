@@ -1,9 +1,29 @@
 .navBack {
     background-color: #0F454F;
+    padding: 2rem;
 }
 .carousel-cont {
     height: 100vh;
 }
 .button-color {
     color: #0f444f;
+}
+.carousel-item {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../public/image/laptop.jpg);
+}
+.carousel-text {
+    border: white 2px solid;
+    width: 40rem;
+    height: 10rem;
+    color: whitesmoke;
+}
+.carousel-text-p--size {
+    font-size: 2rem;
+}
+.carousel-text-title--size {
+    font-size: 4rem;
 }
