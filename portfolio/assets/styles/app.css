@@ -53,3 +53,8 @@
 .carousel-text-p--sub {
     font-size: 2rem;
 }
+.filter-blue {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(41, 22, 87, 0.4);
+}
