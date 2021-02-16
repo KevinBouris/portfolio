@@ -54,3 +54,9 @@
 .carousel-text-p--sub {
     font-size: 2rem;
 }
+.presentation {
+    height: 100vh;
+}
+.title--size {
+    font-size: 3rem;
+}
