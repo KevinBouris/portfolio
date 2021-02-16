@@ -13,17 +13,24 @@
     width: 100vw;
     background-size: cover;
     background-position: center center;
+}
+.carousel-item-image--first {
     background-image: url(../../public/image/laptop.jpg);
 }
+.carousel-item-image--second {
+    background-image: url(../../public/image/notebook.jpg);
+}
 .carousel-text {
-    border: white 2px solid;
-    width: 40rem;
-    height: 10rem;
-    color: whitesmoke;
+    border: 3px solid white;
+    color: white;
+    padding: 3em;
 }
 .carousel-text-p--size {
     font-size: 2rem;
 }
 .carousel-text-title--size {
-    font-size: 4rem;
+    font-size: 3rem;
+}
+.carousel-text-p--sub {
+    font-size: 2rem;
 }
