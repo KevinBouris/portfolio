@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;700&display=swap');
+:root {
+    --font-title: 'Fredericka the Great', cursive;
+    --font-text: 'Averia Serif Libre', cursive;
+    --main-color: #0F454F;
+    --second-color: #245E69;
+    --contrast-color: #432F74
+}
 .navBack {
-    background-color: #0F454F;
+    background-color: var(--main-color);
     padding: 2rem;
 }
 .carousel-cont {
     height: 100vh;
 }
 .button-color {
-    color: #0f444f;
+    color: var(--second-color);
 }
 .backg-button {
     background-color: rgba(48, 48, 48, 0.7);
@@ -58,5 +68,21 @@
     height: 100vh;
 }
 .title--size {
-    font-size: 3rem;
+    font-size: 5rem;
+}
+h2 {
+    font-family: var(--font-title);
+    color: var(--main-color);
+    font-weight: bold;
+}
+p {
+    font-family: var(--font-text);
+}
+a {
+    color: var(--second-color) !important;
+}
+.services {
+    background-color: var(--main-color);
+    height: 100vh;
+    width: 100vw;
 }
