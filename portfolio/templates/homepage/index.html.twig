@@ -3,21 +3,43 @@
 {% block title %}Accueil - {{ parent() }}{% endblock %}
 
 {% block body %}
-<section class="container">
-    <div class="row presentation">
+<section class="presentation">
+    <div class="row presentation mt-5 mr-5 ml-5 mb-5">
         <div class="col d-flex flex-column justify-content-center align-items-center mt-lg-5 p-lg-4">
             <h2 class="text-uppercase mb-5 title--size">Présentation</h2>
             <p class="text-center mb-5 h4"><strong class="fw-bold">Développeur passionné </strong>depuis mon enfance, j'ai décidé d'effectuer une reconversion professionnelle en tant que <strong>développeur web</strong>. J'ai assimilé au cours de mon cursus la capacité de mener des projets depuis le cahier des charges jusqu'à la mise en ligne.</p>
             <p class="text-center mb-5 h4">Les différents soft-skills que j'ai acquis lors de ma précédente vie professionnelle, me permettent d'être à l'écoute de vos besoins en matière de <em>projets web</em>.Si vous le souhaitez, nous pouvons en parlez par
-                <a href="#"> ici</a>.</p>
-            <p class="text-center mb-5 h4">Besoin de voir <a href="#">mes réalisations</a> !!!</p>
-            <p class="text-center h4">Vous souhaitez télécharger mon cv au format <a href="{{ asset('download/CV-Kevin-Bourisville.pdf') }}" download="CV-Kevin-Bourisville">PDF</a> ?</p>
+                <a class="link-color" href="#"> ici</a>.</p>
+            <p class="text-center mb-5 h4">Besoin de voir <a class="link-color" href="#">mes réalisations</a> !!!</p>
+            <p class="text-center h4">Vous souhaitez télécharger mon cv au format <a class="link-color" href="{{ asset('download/CV-Kevin-Bourisville.pdf') }}" download="CV-Kevin-Bourisville">PDF</a> ?</p>
         </div>
     </div>
 </section>
-<section class="container services">
+<section class="services ml-n5 mr-n5 p-5 d-flex flex-column justify-content-center align-items-center">
     <div class="row">
-
+       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+           <h2 class="services-text--color">Services</h2>
+           <h3 class="services-text--color services-text--size">Mes prestations pour la <strong class="services-title--nobold">création de vos sites web</strong>, façonnés selon vos envies</h3>
+       </div>
+    </div>
+    <div class="row d-flex flex-row flex-nowrap justify-content-between">
+        <div class="col col-lg-5">
+            <ul class="list-group bg-transparent">
+                <li class="list-group-item"></li>
+                <li class="list-group-item"></li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
+        <div class="col col-lg-2 services-image">
+{#            <img src="{{ asset('image/service.jpg') }}" alt="">#}
+        </div>
+        <div class="col col-lg-5 bg-transparent">
+            <ul class="list-group">
+                <li class="list-group-item"></li>
+                <li class="list-group-item"></li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
     </div>
 </section>
 {% endblock %}
