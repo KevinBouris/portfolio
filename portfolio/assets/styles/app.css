@@ -103,4 +103,14 @@ p {
     position: absolute;
     height: 100%;
 }
+.services-list li {
+    list-style: none;
+}
+.services-list li div {
+    border-color: #432F75;
+    background-color: #432F75;
+}
+.services-icon--color {
+    color: #437983;
+}
 
