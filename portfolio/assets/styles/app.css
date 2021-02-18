@@ -98,10 +98,11 @@ p {
     font-weight: normal;
 }
 .services-image {
+    width: auto !important;
     background: url("../../public/image/service.jpg") center no-repeat;
     background-size: cover;
-    position: absolute;
-    height: 100%;
+    height: 100% !important;
+    z-index: 10;
 }
 .services-list li {
     list-style: none;
