@@ -70,7 +70,7 @@
 .presentation {
     font-family: var(--font-title);
     color: var(--main-color);
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 p {
     font-family: var(--font-text);
@@ -111,5 +111,35 @@ p {
 }
 .services-icon--color {
     color: #437983;
+}
+.skill-bgProgressbar {
+    background-color: #897AAF !important;
+}
+.skill-progressbar--html {
+    background-color: #07123A !important;
+}
+.skill-progressbar--css {
+    background-color: #804915 !important;
+}
+.skill-progressbar--php {
+    background-color: #0F454F !important;
+}
+.skill-progressbar--sql{
+    background-color: #807015 !important;
+}
+.skill-progressbar--js {
+    background-color: #553B00 !important;
+}
+.skill-progressbar--symfony {
+    background-color: #012C34 !important;
+}
+.progress-bar p {
+    font-size: 1.5em;
+}
+.subtitle--color {
+    color: var(--main-color);
+}
+.progress i {
+    font-size: 2em;
 }
 
